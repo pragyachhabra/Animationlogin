@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Login Page</title>
+      
+      <meta name="description" content="" />
+      <meta name="keywords" content=""/>
+      <meta name="author" content="" />
+      <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand" rel="stylesheet">
+      <script src="js/modernizr.custom.js"></script>
+    <link href="css/mobiscroll.jquery.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/app.css" rel="stylesheet">
+      <script ></script>
+ 
+   </head>
+   <body class="demo-1">
+     <div id="ip-container" class="ip-container">
+         <!-- initial header -->
+         <header class="ip-header">
+            <div class="bg1"></div>
+            <h1 class="ip-logo">
+         Fastighet
+            </h1>
+            <div class="ip-loader">
+               <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+                  <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+                  <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+               </svg>
+            </div>
+         </header>
+         <!-- top bar -->
+         <div class="main">
+            <div class="bg"></div>
+            <div class="bg2"></div>
+            <div class="top">
+               <div>
+             
+               <div class="parallax"> 
+                  
+               </div>
+            </div>
+           <div class="calendar"><div style="font-size:36px;position: absolute;
+width: 100%;
+z-index: 999;" id="star"><div class="mbsc-form-group">  <div class="mbsc-form-group-title"></div>
+            <div class="mbsc-grid-fixed"><div class="mbsc-row">
+   <div class="metro">
+     
+
+<div id="menu-toggle">
+  <div id="menu-icon">
+<div class="arrow bounce">
+  <a class="fa fa-chevron-circle-down fa-2x" href="#"></a>
+</div>
+
+  </div>
+
+</div>
+<div id="menu-overlay"></div>
+<ul id="menu">
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Dashboard</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Mina bokningar</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Mina Meddelanden</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Nyheter</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Games</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Settings</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Games</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Settings</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Games</span></div>
+<div class="boxx"> <div>  <i class="fa fa-camera-retro fa-lg"></i></div><span>Settings</span></div>
+
+</ul>
+
+</div> </div></div></div>  </div>
+            </div>
+               <div class="restart" onclick="restart()">← BACK</div>
+            </div>
+        
+<div class="content">
+               <div class="button-container">
+                  <button class="button" onclick="materialClick(event)">
+                     <div class="circle animate"></div>
+                         <div class="mbsc-form-group-inset mbsc-padding">
+                     <span class="sign-in">Sign in</span>
+                     <div class="loader"></div></div>
+                  </button>
+               </div>
+               <div class="controls">
+                  <div class="icon">
+                  
+                  </div>
+   
+     <form id="demo" class="md-login-form" mbsc-form>
+                  <div class="inputs">
+                                 <div class="mbsc-form-group-inset">
+  
+             <label> <svg class="login" xmlns="http://www.w3.org/2000/svg" width="44" height="40" viewBox="0 0 44 40">
+                        <g stroke="#fc9204" fill="none" stroke-width="3.538" transform="translate(0 -1012.362)">
+                           <ellipse ry="8.09" rx="8.244" cy="1022.221" cx="21.555" stroke-linecap="round"/>
+                           <path d="M1.858 1046.4c-.79 4.74 3.805 4.11 3.805 4.11H37.88s4.846.936 4.312-3.854c-.533-4.79-6.076-10.937-20.04-11.043-13.964-.106-19.504 6.047-20.294 10.786z"/>
+                        </g>
+                     </svg> <input
+                        class="input"  id="email" type="email" name="email" placeholder="Email" >   </label> 
+                         <label>    <svg class="lock" xmlns="http://www.w3.org/2000/svg" width="44" height="46" viewBox="0 0 44 46">
+                        <g transform="translate(-28.15 -974.678)" stroke="#fc9204" fill="none" stroke-width="3.509">
+                           <rect ry="3.136" y="995.18" x="29.903" height="23.743" width="40.491" stroke-linecap="round"/>
+                           <path d="M49.386 1004.406v4.788" stroke-linecap="round"/>
+                           <path d="M37.073 994.83s-1.39-18.398 12.97-18.398c14.36 0 12.207 18.397 12.207 18.397"/>
+                        </g>
+                     </svg>
+               <input
+                        class="input" type="password" type="text" placeholder="Password" data-password-toggle="true" data-icon="none" data-icon-align="right" /></label>
+                  </div>
+                  </form>   
+               </div>
+            </div>
+         </div>
+      </div>
+      </div><!-- /container -->
+
+      <script type="text/javascript">
+   
+      </script>
+      <script src="js/classie.js"></script>
+      <script src="js/pathLoader.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/animation.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/jquery.navside.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/mobiscroll.jquery.min.js"></script>
+    <script src="js/app.js"></script>
+
+<script>$(document).ready(function(){
+  
+  // NAVIGATION MENU
+  
+  // menu icon states, opening main nav
+  $('#menu-icon').click(function(){
+    $(this).toggleClass('open');
+    $('#menu,#menu-toggle,#page-content,#menu-overlay').toggleClass('open');
+    $('#menu li,.submenu-toggle').removeClass('open');
+  });
+  
+  // clicking on overlay closes menu
+  $('#menu-overlay').click(function(){
+    $('*').removeClass('open');
+  });
+  
+  // add child menu toggles and parent class
+  $('#menu li').has('ul').addClass('parent').prepend('<div class="submenu-toggle">open</div>');
+  
+  // toggle child menus
+  $('.submenu-toggle').click(function(){
+    var currentToggle=$(this);
+    currentToggle.parent().toggleClass('open');
+    currentToggle.toggleClass('open');
+  });
+});
+</script>
+   </body>
+</html>
